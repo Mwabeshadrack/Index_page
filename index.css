@@ -231,7 +231,7 @@ header
 
 .text-box1
 {
-    display: inline-flex;
+    display: flex;
     justify-content: space-between;
     background: blue;
     backdrop-filter: blur (4px);
@@ -239,13 +239,15 @@ header
     margin-left: 60px;
     border-radius: 15px;
     box-shadow: 0 8px 10px 8px black;
-    width: 80%;
+    width: 60%;
+    height: 100px;
+    
 }
 
 .wrapper .text-box1 h1
 {
     color: white;
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
     align-items: center;
@@ -256,15 +258,15 @@ header
 .wrapper .text-box2 p
 {
     color: white;
-    font-size: 1.5em;
+    font-size: 1em;
     font-weight: 400;
     font-family: 'Times New Roman', Times, serif;
     align-items: center;
     display: flex column;
-    margin-right: 300px;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    float: left;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    float: none;
 }
 
 .text-box1 button
